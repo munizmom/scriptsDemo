@@ -15,13 +15,8 @@
 #################################################################################################
 ##to run it on the cluster:
 ##########################
-## deprecated : sbatch -p surf --mem-per-cpu=4000 --cpus-per-task=16 -J kalsto  -v -v kallisto.sh SRR1665057
-# sbatch --mem=120GB --cpus=40 -J kalistoT  -v -v kallisto_Transcripts.sh 180510_BrV0_S18025 180510_BrV0/S18025 mus_musculus grcm38.93 Mus_musculus.GRCm38.cdna.all.fa
-#sbatch --mem=80GB --cpus=16 -J klstT  -v -v kallisto_Transcripts.sh 180603_BrV0_S18057 180603_BrV0/S18057 mus_musculus grcm38.93 Mus_musculus.GRCm38.cdna.all.fa
-#sbatch --mem=80GB --cpus=16 -J klstT  -v -v kallisto_Transcripts.sh 180618_BrV0_S16138 180618_BrV01/S16138 mus_musculus grcm38.93 Mus_musculus.GRCm38.cdna.all.fa
-#sbatch --mem=80GB --cpus=16 -J klstT  -v -v kallisto_Transcripts.sh 170710_DubA 170710_DubA01/S16161 mus_musculus grcm38.93 Mus_musculus.GRCm38.cdna.all.fa
-#sbatch --mem=80GB --cpus=16 -J klstT  -v -v kallisto_Transcripts.sh S18023_Rno20delDup S18023_Rno20delDup rattus_norvegicus Rnor_6.0_93 Rattus_norvegicus.Rnor_6.0.cdna.all.fa
-#sbatch --mem=80GB --cpus=16 -J klstT  -v -v kallisto_Transcripts.sh S18031_DupCbs S18031_DupCbs rattus_norvegicus Rnor_6.0_93 Rattus_norvegicus.Rnor_6.0.cdna.all.fa
+#
+#sbatch --mem=80GB --cpus=16 -J klstT  -v -v kallisto_Transcripts.sh 180603 180603/S18057 mus_musculus grcm38.93 Mus_musculus.GRCm38.cdna.all.fa
 #################################################################################################
 #
 #README:

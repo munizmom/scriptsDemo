@@ -3,7 +3,7 @@
 #SBATCH -o slurm.%N.%j.out           # STDOUT
 #SBATCH -e slurm.%N.%j.err           # STDERR
 #SBATCH --mail-type=ALL              # 
-#SBATCH --mail-user=munizmom@igbmc.fr
+#SBATCH --mail-user=user@igbmc.fr
 
 #################################################################################################
 ###################################### README  ##################################################

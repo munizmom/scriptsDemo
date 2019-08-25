@@ -109,7 +109,7 @@ speciesNames <- c("Human","Mouse","Rat","Drosophila","Chimpanzee","Gorilla",
 	"Orangutan","Zebrafish","C.elegands");
 
 chrsSpecieList <- list()
-genesDf_allCuack <- list()
+genesDf_all <- list()
 for (i in 1:length(speciesBiomaRt)){
 	ensembl = useMart("ensembl", dataset = speciesBiomaRt[i]) 
 	attributes = listAttributes(ensembl)
@@ -145,8 +145,6 @@ speciesNames <- c("Human","Mouse","Rat","Drosophila","Chimpanzee","Gorilla",
 	"Orangutan","Zebrafish","C.elegands");
 
 chrList <- list(chrHuman=chrHuman,chrMouse=chrMouse,chrRattu=chrRattu,chrDroso=chrDroso,chrChimp=chrChimp,chrGoril=chrGoril,chrOrang=chrOrang,chrZebrf=chrZebrf,chrCeleg=chrCeleg);
-#genomeSize <-
-#genomeWeight <- 
 ensemblLengthList_270219<- list(chrHuman=3609003417,chrMouse=3486944526,chrRattu=3042335753,chrDroso=142573024,chrChimp=3385800935,chrGoril=2917385452,chrOrang=3109347532,chrZebrf=1674207132,chrCeleg=103022290);
 
 # #celegans
